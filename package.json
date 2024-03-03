@@ -1,21 +1,32 @@
 {
   "name": "koishi-plugin-webhook",
-  "description": "111",
+  "description": "监听指定 Webhook 地址并格式化消息发送",
   "version": "0.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "contributors": [
+    "Mcayear <mcayear@163.com>",
+    "Xeu <i@xeu.life>"
+  ],
+  "homepage": "https://github.com/ThankRain/koishi-plugin-webhook-trigger-action",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThankRain/koishi-plugin-webhook-trigger-action.git"
+  },
   "files": [
     "lib",
     "dist"
   ],
+  "scripts": {
+    "build": "atsc -b",
+    "pub": "npm publish"
+  },
   "license": "MIT",
-  "scripts": {},
   "keywords": [
-    "chatbot",
+    "webhook",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.17.1"
   }
